@@ -1,115 +1,128 @@
 .logo {
-    height: 72px;
-  }
-  
-  .logo img {
-    height: 92px;
-  }
-  
-  .searchInput {
-    width: 580px;
-    max-width: 580px;
-    border: 1px solid #e1e2e3;
-    padding: 0;
-// border-radius: 50px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  }
-.icon{
-    color: rgb(59, 59, 59);
+  height: 72px;
 }
 
+.logo img {
+  height: 92px;
+}
+
+.searchInput {
+  width: 580px;
+  max-width: 580px;
+  border: 1px solid #e1e2e3;
+  padding: 0;
+  // border-radius: 50px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.icon {
+  color: rgb(59, 59, 59);
+}
 
 //change the color of placeholder
-::ng-deep input::placeholder{
+::ng-deep input::placeholder {
   color: rgb(78, 76, 76) !important;
   opacity: 1;
 }
 
 // ------change the border-color of input -------------//
-  //mdc-notched-outline__leading"
-  //mdc-notched-outline__notch
-  //mdc-notched-outline__trailing
-  //mdc-text-field--outlined
-  
-  :host ::ng-deep .mdc-text-field--outlined .mdc-notched-outline__leading {
-    border-color: rgb(255, 255, 255) !important;
-  }
-  :host ::ng-deep .mdc-text-field--outlined .mdc-notched-outline__notch {
-    border-color: rgb(255, 255, 255) !important;
-  }
-  :host ::ng-deep .mdc-text-field--outlined .mdc-notched-outline__trailing {
-    border-color: rgb(255, 255, 255) !important;
-  }
-  // ------change the border-color of input in hover mode -------------//
+//mdc-notched-outline__leading"
+//mdc-notched-outline__notch
+//mdc-notched-outline__trailing
+//mdc-text-field--outlined
 
-  :host
-    ::ng-deep
-    .mdc-text-field--outlined.mdc-text-field--focused
-    .mdc-notched-outline__trailing {
-    border-color: rgb(255, 255, 255) !important;
-  }
-  :host
-    ::ng-deep
-    .mdc-text-field--outlined.mdc-text-field--focused
-    .mdc-notched-outline__notch {
-    border-color: rgb(255, 255, 255) !important;
-  }
-  :host
-    ::ng-deep
-    .mdc-text-field--outlined.mdc-text-field--focused
-    .mdc-notched-outline__leading {
-    border-color: rgb(255, 255, 255) !important;
-  }
-  
-  //remove an onvisible box in bottom of input
-  //mat-mdc-form-field-subscript-wrapper
-  :host ::ng-deep .mat-mdc-form-field-subscript-wrapper {
-    display: none;
-  }
-  
-  .buttons button {
-    background: #f8f9fa;
-    border: none;
-    padding: 10px;
-    border-radius: 5px;
-  }
-  .buttons button:hover {
-    border: solid 1px #e1e2e3;
-  }
+:host ::ng-deep .mdc-text-field--outlined .mdc-notched-outline__leading {
+  border-color: rgb(255, 255, 255) !important;
+}
+:host ::ng-deep .mdc-text-field--outlined .mdc-notched-outline__leading:active {
+  border-color: rgb(120, 79, 79) !important;
+}
+:host ::ng-deep .mdc-text-field--outlined .mdc-notched-outline__notch {
+  border-color: rgb(255, 255, 255) !important;
+}
+:host ::ng-deep .mdc-text-field--outlined .mdc-notched-outline__trailing {
+  border-color: rgb(255, 255, 255) !important;
+}
+// ------change the border-color of input in hover mode -------------//
 
-  //
-  ::ng-deep .mat-mdc-autocomplete-panel{
-    background-color: white !important;
-    // border: 1px solid red;
-    color: black;
-    width: 100%!important;
-  }
+:host
+  ::ng-deep
+  .mdc-text-field--outlined.mdc-text-field--focused
+  .mdc-notched-outline__trailing {
+  border-color: rgb(255, 255, 255) !important;
+}
+:host
+  ::ng-deep
+  .mdc-text-field--outlined.mdc-text-field--focused
+  .mdc-notched-outline__notch {
+  border-color: rgb(255, 255, 255) !important;
+}
+:host
+  ::ng-deep
+  .mdc-text-field--outlined.mdc-text-field--focused
+  .mdc-notched-outline__leading {
+  border-color: rgb(255, 255, 255) !important;
+}
 
-  //change the color of text in auto complete
-  ::ng-deep .mat-mdc-autocomplete-panel .mat-mdc-option{
-    color: black!important;
-  }
+//remove an onvisible box in bottom of input
 
-  ::ng-deep .mat-mdc-autocomplete-panel .mat-mdc-option:hover{
-    background-color: rgb(236, 236, 236)!important;
-  }
+:host ::ng-deep .mat-mdc-form-field-subscript-wrapper {
+  display: none;
+}
 
- 
-// ::ng-deep .cdk-overlay-pane{
-//     // border: 1px solid red;
-//     width: 580px;
-//   }
-  // ::ng-deep .mat-mdc-autocomplete-panel-above{
-  //   border-bottom: none;
-  // }
- 
-  // cdk-overlay-pane mat-mdc-autocomplete-panel-above
- 
-  .searchInput .mat-mdc-text-field-wrapper{ 
-border-radius: 50px;
-  }
+.buttons button {
+  background: #f8f9fa;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+.buttons button:hover {
+  border: solid 1px #e1e2e3;
+}
 
+//
+::ng-deep .mat-mdc-autocomplete-panel {
+  background-color: white !important;
+  color: black;
+  width: 100% !important;
+}
 
-  .searchInput .mat-focused .mat-mdc-text-field-wrapper{
-    border-radius: 50px 50px 0 0 !important;
-  }
+//change the color of text in auto complete
+::ng-deep .mat-mdc-autocomplete-panel .mat-mdc-option {
+  color: black !important;
+}
+
+::ng-deep .mat-mdc-autocomplete-panel .mat-mdc-option:hover {
+  background-color: rgb(236, 236, 236) !important;
+}
+
+/* حالت اولیه با border-radius گرد */
+.searchInput .mat-mdc-text-field-wrapper {
+  border-radius: 50px;
+}
+
+/* زمانی که input focus می‌گیره و auto-complete ظاهر میشه */
+.searchInput .mat-focused .mat-mdc-text-field-wrapper {
+  border-radius: 50px 50px 0 0 !important; /* فقط لبه‌های بالایی گرد می‌مونه */
+}
+
+/* زمانی که autocomplete ظاهر میشه و input فعال میشه */
+::ng-deep .mat-mdc-autocomplete-panel {
+  // border-radius: 0 0 8px 8px; /* لبه‌های پایینی گرد باشن */
+  border-radius: 0 0 0 0 !important; /* حذف گردی گوشه‌های پایینی */
+}
+
+::ng-deep .cdk-overlay-pane .mat-mdc-autocomplete-panel-above {
+  border-radius: 8px 8px 0 0 !important;
+}
+
+/* برای تنظیمات کلی ورودی */
+.mat-mdc-form-field {
+  border-radius: 15px 15px 0 0; /* گرد کردن مرز */
+}
+
+/* استایل‌های اضافی برای ورودی با کلاس‌های سفارشی */
+.custom-input,
+.searchInput {
+  border: 1px solid rgb(223, 223, 223) !important; /* تغییر رنگ مرز */
+  // border-radius: 50px; /* تغییر گردی مرز */
+}

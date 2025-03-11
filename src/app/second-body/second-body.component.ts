@@ -8,9 +8,10 @@ import { Component } from '@angular/core';
 import { FaIconComponent } from '@fortawesome/angular-fontawesome';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { FormsModule } from '@angular/forms';
+import { MatAutocompleteModule } from '@angular/material/autocomplete';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
-import {MatAutocompleteModule} from '@angular/material/autocomplete';
+import { MatTooltipModule } from '@angular/material/tooltip';
 
 @Component({
   selector: 'app-second',
@@ -20,7 +21,8 @@ import {MatAutocompleteModule} from '@angular/material/autocomplete';
     MatInputModule,
     FontAwesomeModule,
     FaIconComponent,
-    MatAutocompleteModule
+    MatAutocompleteModule,
+    MatTooltipModule,
   ],
   templateUrl: './second-body.component.html',
   styleUrl: './second-body.component.scss',
