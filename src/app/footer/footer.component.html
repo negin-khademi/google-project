@@ -1,0 +1,13 @@
+<div class="footer d-flex align-items-center justify-content-between w-100 ">
+    <ul class="d-flex align-items-center justify-content-between list-unstyled">
+        <li *ngFor = 'let link of footerLinks'>
+            <a [href]="link.url">{{link.label}}</a>
+        </li>
+    </ul>
+    <ul class="d-flex align-items-center justify-content-between list-unstyled">
+        <li *ngFor = 'let link of footerPoliciesLinks'>
+            <a [href]="link.url">{{link.label}}</a>
+        </li>
+    </ul>
+    
+</div>

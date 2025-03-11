@@ -1,0 +1,53 @@
+<div class="d-flex flex-column justify-content-start">
+  <div class="logo d-flex justify-content-center align-items-center my-2 mb-5">
+    <img src="googleIcon.png" alt="logo" />
+  </div>
+  <div class="d-flex flex-column">
+    <div class="searchInput row mx-auto">
+      <div class="col-9">
+        <div class="row d-flex align-items-center">
+          <fa-icon [icon]="faSearch" class="col-1"></fa-icon>
+         
+          <mat-form-field class="col-11" appearance="outline" color="primary">
+            <input matInput [matAutocomplete]="auto" type="search" [style.color]="'black'" placeholder="Type Something ..." />
+            <mat-autocomplete autoActiveFirstOption #auto>
+              <mat-option value="red">red</mat-option>
+              <mat-option value="blue">blue</mat-option>
+              <mat-option value="green">green</mat-option>
+            </mat-autocomplete>
+          </mat-form-field>
+          
+        </div>
+      </div>
+      <div class="col-3 d-flex justify-content-end align-items-center">
+        <fa-icon [icon]="faMicrophone" class="me-3"></fa-icon>
+        <fa-icon [icon]="faCamera" class="me-1"></fa-icon>
+      </div>
+    </div>
+
+<!--  -->
+<div class="searchInput row mx-auto">
+    <div class="row d-flex align-items-center">
+     
+      <mat-form-field appearance="outline" color="primary">
+        <input matInput [matAutocomplete]="auto" type="search" [style.color]="'black'" placeholder="Type Something ..." />
+        <mat-autocomplete autoActiveFirstOption #auto>
+          <mat-option value="red">red</mat-option>
+          <mat-option value="blue">blue</mat-option>
+          <mat-option value="green">green</mat-option>
+        </mat-autocomplete>
+      </mat-form-field>
+      
+    
+  </div>
+  
+</div>
+<!--  -->
+    <div
+      class="buttons w-100 d-flex align-content-center justify-content-center mt-3"
+    >
+      <button class="me-3">Google Search</button>
+      <button>I'm Feeling Lucky</button>
+    </div>
+  </div>
+</div>
