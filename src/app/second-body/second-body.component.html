@@ -4,42 +4,8 @@
   </div>
   <div class="d-flex flex-column">
     <div class="row mx-auto">
-      <mat-form-field
-        class="custom-input searchInput col-12"
-        appearance="outline"
-        color="primary"
-      >
-        <span matPrefix class="px-2">
-          <fa-icon [icon]="faSearch" class="icon"></fa-icon>
-        </span>
-
-        <input
-          matInput
-          [matAutocomplete]="auto"
-          type="search"
-          [style.color]="'black'"
-          placeholder="Type Something ..."
-        />
-
-        <span matSuffix>
-          <a href="#" matTooltip="Search by voice" matTooltipPosition="above">
-            <fa-icon [icon]="faMicrophone" class="icon"></fa-icon>
-          </a>
-          <a href="" matTooltip="Search by image" matTooltipPosition="above">
-            <fa-icon [icon]="faCamera" class="px-2 icon"></fa-icon>
-          </a>
-        </span>
-
-        <mat-autocomplete autoActiveFirstOption class="px-2" #auto>
-          <mat-option value="red">red</mat-option>
-          <mat-option value="blue">blue</mat-option>
-          <mat-option value="green">green</mat-option>
-        </mat-autocomplete>
-      </mat-form-field>
+      <app-search />
     </div>
-
-    <!--  -->
-    <!--  -->
     <div
       class="buttons w-100 d-flex align-content-center justify-content-center mt-3"
     >
