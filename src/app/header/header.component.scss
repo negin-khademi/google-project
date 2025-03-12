@@ -16,3 +16,35 @@
   border-color: #9d9d9f !important; /* تغییر رنگ بوردر */
   transition: all 0.3s ease-in-out;
 }
+
+.header-links {
+  font-size: 14px;
+  text-underline-offset: 3px;
+}
+.simple-btn {
+  background-color: transparent;
+  border: none;
+}
+.simple-btn:hover {
+  background-color: transparent;
+  border: none;
+  text-decoration: underline;
+}
+
+.google-icon {
+  color: rgb(69, 65, 65) !important;
+  text-decoration: underline;
+  font-size: 24px;
+}
+
+.circle {
+  height: 35px;
+  width: 35px;
+  object-fit: contain;
+  border-radius: 50%;
+  border: 1px solid red;
+}
+.circle img {
+  width: 100%; /* تنظیم عرض تصویر */
+  height: auto;
+}
