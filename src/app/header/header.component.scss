@@ -1,0 +1,18 @@
+::ng-deep .example-button-row button {
+  background-color: #f8f9fa;
+  color: rgb(87, 87, 87) !important;
+  box-sizing: border-box;
+  border-radius: 0;
+  // margin: 5px;
+  padding: 10px 20px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+::ng-deep .mat-mdc-button:hover,
+::ng-deep .mat-mdc-raised-button:hover,
+::ng-deep .mat-mdc-stroked-button:hover {
+  background-color: #c5c5c5 !important; /* تغییر رنگ پس‌زمینه */
+  color: rgb(48, 38, 38) !important; /* تغییر رنگ متن */
+  border-color: #9d9d9f !important; /* تغییر رنگ بوردر */
+  transition: all 0.3s ease-in-out;
+}
