@@ -1,0 +1,56 @@
+.register-card {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 25px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.7);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  color: #365456;
+}
+
+mat-form-field {
+  width: 100%;
+  margin-bottom: 15px;
+}
+::placeholder {
+  color: rgb(147, 147, 147) !important;
+}
+button {
+  width: 100%;
+  background: #5170af !important;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.full-width {
+  width: 100%;
+  margin-bottom: 15px;
+}
+.global-style {
+  background-image: url("/cloud.jpeg") !important;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.login-link {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+  color: #ddd;
+
+  a {
+    color: #757273;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+
+    &:hover {
+      color: #629183;
+    }
+  }
+}
