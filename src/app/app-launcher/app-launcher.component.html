@@ -1,1 +1,21 @@
-<p>app-launcher works!</p>
+<button
+  type="button"
+  class="bg-transparent border-0 p-0 m-0"
+  title="google-icon"
+  [matMenuTriggerFor]="menu"
+>
+  <fa-icon
+    [icon]="faTh"
+    class="google-icon mx-3"
+    [style]="{ 'font-size': '24px', color: '#333' }"
+  ></fa-icon>
+</button>
+
+<mat-menu class="menu" #menu="matMenu" overlapTrigger="false">
+  <div class="inner-box bg-white p-1">
+    <p>sala</p>
+    <p>sala</p>
+    <p>sala</p>
+    <p>sala</p>
+  </div>
+</mat-menu>
