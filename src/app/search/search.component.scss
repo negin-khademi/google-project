@@ -82,28 +82,3 @@
 ::ng-deep .mat-mdc-autocomplete-panel .mat-mdc-option:hover {
   background-color: rgb(236, 236, 236) !important;
 }
-
-/* حالت اولیه با border-radius گرد */
-// .searchInput .mat-mdc-text-field-wrapper {
-//   border-radius: 50px;
-// }
-
-/* زمانی که input focus می‌گیره و auto-complete ظاهر میشه */
-// .searchInput .mat-focused .mat-mdc-text-field-wrapper {
-//   border-radius: 50px 50px 0 0 !important; /* فقط لبه‌های بالایی گرد می‌مونه */
-// }
-
-/* زمانی که autocomplete ظاهر میشه و input فعال میشه */
-// ::ng-deep .mat-mdc-autocomplete-panel {
-//   // border-radius: 0 0 8px 8px; /* لبه‌های پایینی گرد باشن */
-//   border-radius: 0 0 0 0 !important; /* حذف گردی گوشه‌های پایینی */
-// }
-
-// ::ng-deep .cdk-overlay-pane .mat-mdc-autocomplete-panel-above {
-//   border-radius: 8px 8px 0 0 !important;
-// }
-
-/* برای تنظیمات کلی ورودی */
-// .mat-mdc-form-field {
-//   border-radius: 15px 15px 0 0; /* گرد کردن مرز */
-// }
