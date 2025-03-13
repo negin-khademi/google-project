@@ -36,15 +36,3 @@
   text-decoration: underline;
   font-size: 24px;
 }
-
-.circle {
-  height: 35px;
-  width: 35px;
-  object-fit: contain;
-  border-radius: 50%;
-  border: 1px solid red;
-}
-.circle img {
-  width: 100%; /* تنظیم عرض تصویر */
-  height: auto;
-}
