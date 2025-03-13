@@ -1,5 +1,27 @@
-.circle {
-  height: 35px;
-  width: 35px;
-  border-radius: 50%;
+::ng-deep .menu {
+  background-color: #e9eef6 !important;
+  width: 400px !important;
+  max-width: none !important;
+}
+
+::ng-deep .menu button {
+  font-weight: bold;
+  color: black !important;
+}
+
+::ng-deep .menu .mat-menu-item:hover {
+  background-color: #444 !important;
+}
+
+::ng-deep .cdk-overlay-pane {
+  margin-top: 15px;
+  margin-right: 15px;
+}
+
+.edit-icon {
+  position: absolute;
+  top: 20px; /* فاصله از بالای تصویر */
+  left: 20px; /* فاصله از سمت چپ تصویر */
+  font-size: 24px; /* اندازه آیکن */
+  color: red; /* رنگ آیکن */
 }
