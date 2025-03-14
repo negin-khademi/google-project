@@ -32,7 +32,7 @@
   border-color: rgb(255, 255, 255) !important;
 }
 :host ::ng-deep .mdc-text-field--outlined .mdc-notched-outline__leading:active {
-  border-color: rgb(120, 79, 79) !important;
+  border-color: rgb(255, 255, 255) !important;
 }
 :host ::ng-deep .mdc-text-field--outlined .mdc-notched-outline__notch {
   border-color: rgb(255, 255, 255) !important;
@@ -72,6 +72,7 @@
   background-color: white !important;
   color: black;
   width: 100% !important;
+  margin-top: -14px;
 }
 
 //change the color of text in auto complete
