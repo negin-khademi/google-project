@@ -11,11 +11,9 @@ import { MatDividerModule } from '@angular/material/divider';
 
   imports: [
     MatButtonModule,
-    MatButtonModule,
     MatDividerModule,
     GoogleAccountComponent,
     AppLauncherComponent,
-    // MatDialogModule,
   ],
 
   templateUrl: './header.component.html',
